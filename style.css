@@ -8,3 +8,66 @@
     ---------------------------------------------------------- */
 
     /* ============ PLACE YOUR CUSTOM CSS HERE ============ */
+
+
+    .js .to-animate, .js
+    .to-animate-2, .js
+    .animate-box {
+        opacity: 0;
+    }
+
+    #fh5co-header #fh5co-main-nav {
+        float: right;
+      }
+      @media screen and (max-width: 768px) {
+        #fh5co-header #fh5co-main-nav {
+          display: none;
+        }
+      }
+      #fh5co-header #fh5co-main-nav ul {
+        padding: 0;
+        margin: 4px 0 0 0;
+      }
+      #fh5co-header #fh5co-main-nav ul li {
+        padding: 0;
+        margin: 0;
+        display: inline;
+      }
+      #fh5co-header #fh5co-main-nav ul li a {
+        font-family: "Roboto Slab", sans-serif;
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        margin-left: 30px;
+        border-bottom: 2px solid transparent;
+      }
+      #fh5co-header #fh5co-main-nav ul li a:hover {
+        text-decoration: none;
+        color: #f9ad81;
+      }
+      #fh5co-header #fh5co-main-nav ul li.active a {
+        color: #fff;
+        border-bottom: 2px solid #f9ad81;
+      }
+
+      #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a {
+        font-family: "Roboto Slab", sans-serif;
+        color: rgba(0, 0, 0, 0.8);
+        text-decoration: none;
+        margin-left: 30px;
+        border-bottom: 2px solid transparent;
+      }
+      #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li a:hover {
+        text-decoration: none;
+        color: #f9ad81;
+      }
+      #fh5co-header.navbar-fixed-top #fh5co-main-nav ul li.active a {
+        color: #f9ad81;
+        border-bottom: 2px solid transparent;
+      }
+
+      #fh5co-main,
+    #fh5co-offcanvas {
+        -webkit-transition: 0.8s;
+        -o-transition: 0.8s;
+        transition: 0.8s;
+    }

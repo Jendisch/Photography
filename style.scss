@@ -1,0 +1,63 @@
+#fh5co-main-nav {
+	float: right;
+	@media screen and (max-width :$screen-sm) {
+		display: none;
+	}
+	ul {
+		padding: 0;
+		margin: 4px 0 0 0;
+		li {
+			padding: 0;
+			margin: 0;
+			display: inline;
+			a {
+				font-family: $font-primary;
+				color: rgba(255,255,255,.8);
+				text-decoration: none;
+				margin-left: 30px;
+				border-bottom: 2px solid transparent;
+				&:hover {
+					text-decoration: none;
+					color: $brand-primary;
+				}
+
+			}
+			&.active {
+				a {
+					color: $brand-white;
+					border-bottom: 2px solid $brand-primary;
+				}
+			}
+		}
+	}
+}
+
+#fh5co-main-nav {
+	ul {
+		li {
+			a {
+				font-family: $font-primary;
+				color: rgba(0,0,0,.8);
+				text-decoration: none;
+				margin-left: 30px;
+				border-bottom: 2px solid transparent;
+				&:hover {
+					text-decoration: none;
+					color: $brand-primary;
+				}
+			}
+			&.active {
+				a {
+					color: $brand-primary;
+					border-bottom: 2px solid transparent;
+				}
+			}
+		}
+	}
+}
+
+#fh5co-main,
+#fh5co-offcanvas {
+	@include transition(.8s);
+}
+
